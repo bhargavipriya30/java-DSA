@@ -64,6 +64,23 @@ When you initialize variables like arrays or strings, your algorithm is allocati
 We never count the space used by the input (it is bad practice to modify the input),
 and usually don't count the space used by the output (the answer) unless an interviewer asks us to.
 
-
-
+***
+Time Complexity|   Name           |   Example in DSA               |   When it Happens               |   Real-Life Analogy      |
+O(1)           | Constant Time    | Accessing Array element,       | Operation doesn't depend on     | Picking the first book   |
+                                    HashMap lookup, Stack push/pop   input size                        from shelf
+O(log n)       | Logarithmic Time | Binary Search, Balanced BST    | Input Size reduces by half      | Finding a word in a      |
+                                    Search, Heap Operations          each step                         dictionary
+O(n)           | Linear Time      | Traversing array, Linear Search| Every element needs to be       | Taking attendance in a   |
+                                     BFS/DFS in graph                checked once                      class
+O(n log n)     | Linearithmic Time| Merge/Heap/Tree sort,          | Efficient divide-and-conquer    | Sorting names in a phone |
+                                    Quick sort(avg)                  algorithms                        book
+O(n^2)         | Quadratic Time   | Bubble/Selection/Insertion     | Nested loops over entire input  | Comparing every student  |
+                                                                                                       with other student
+O(n^3)         | Cubic Time       | Matrix multiplication(naive)   | Triple nested iterations        | Checking all seat        |
+                                    3 nested loops                                                     combinations in a hall
+O(2^n)         | Exponential Time | Recurisve, Fibonacci,          | Branhing doubles with each      | Trying every combination |
+                                   Traveling Salesman(subset method)  input                            of clothes
+O(n!)          | Factorial Time   | Traveling Salesman(brute force)| When every possible order/      | Shuffling and checking   |
+                                     generating permutations         arrangement is tried              every order of a deck of
+                                                                                                       cards
 
