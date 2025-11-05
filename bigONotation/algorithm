@@ -1,0 +1,17 @@
+-Before we talk about big O, it's important that we first understand what exactly an "algorithm" is
+
+An algorithm can be seen as a recipe for a computer to follow. It's a set of instructions that a computer
+will follow step-by-step to solve a problem.
+
+Algorithms take an input and produce an output.
+For example, let's say you had a non-empty array of positive integers called nums,
+ and you wanted to answer the question: "What is the largest number in nums?".
+ Ans: you would write an algorithm that takes an array called nums as input, and outputs the largest number in nums. Here is an example of such an algorithm:
+
+      - Create a variable maxNum and initialize it to 0.
+      - Iterate over each element num in nums.
+      - If num is greater than maxNum, update maxNum = num.
+      - Output maxNum.
+
+Note: Algorithms should be deterministic. Given the same input, the algorithm should always produce the same output.
+      Basically, there shouldn't be any randomness.
